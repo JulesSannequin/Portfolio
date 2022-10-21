@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    height: 85vh;
+  }
+  
+  .main-right {
+   background-color: steelblue;
+   width: 50%;
+  }
+  
+  .main-left {
+    background-color: tomato;
+    width: 50%;
+  }
