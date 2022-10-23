@@ -1,4 +1,39 @@
 .main-contact {
     height: 85vh;
-    background-color: aquamarine;
+    background: linear-gradient(#D9AFD9, #97D9E1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contact-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 10px;
+}
+
+.main-contact-container a {
+    text-decoration: none;
+    background: -webkit-linear-gradient(#AD86B8, #C0F6D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-contact-container a:hover {
+    color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
 }

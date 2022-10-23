@@ -14,11 +14,11 @@ const Home = () => {
         </div>
         <div className="main-left-bottom">
           Je suis un <br /> <span>développeur full-stack junior</span> <br />
-          également compositeur de musique et sensible au design
+          également compositeur de musique sensible au design
         </div>
       </div>
       <div className="main-right">
-        <img src={backgroundImage} alt="background-image" />
+        <img src={backgroundImage} alt="background" />
       </div>
     </div>
   );
