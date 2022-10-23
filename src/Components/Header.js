@@ -8,7 +8,11 @@ const Header = () => {
         <h1>Jules Sannequin</h1>
         Junior Fullstack web-Développeur
       </div>
+
       <div className="header-right">
+        <Link to="/">
+          <button>home</button>
+        </Link>
         <Link to="/contact">
           <button>Contact</button>
         </Link>

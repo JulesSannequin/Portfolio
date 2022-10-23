@@ -9,6 +9,38 @@
   }
   
   .main-left {
-    background-color: tomato;
+    background-color: white;
+    color: black;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+  .main-left span {
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(#AD86B8, #C0F6D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+ 
+  .main-left-top, .main-left-center, .main-left-bottom {
+    width: 50%;
+    margin-top: 5rem;
+  }
+
+  .main-left-bottom {
+    line-height: 25px;
+  }
+
+  .main-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+
+ 

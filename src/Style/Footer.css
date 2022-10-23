@@ -1,0 +1,9 @@
+.footer {
+    background: -webkit-linear-gradient(#AD86B8, #C0F6D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 3rem;
+}
+
+
+

@@ -2,6 +2,12 @@
     display: flex;
     height: 15vh;
    }
+
+   .header h1 {
+    background: -webkit-linear-gradient(#AD86B8, #C0F6D0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
    
    .header-left {
      width: 50%;
@@ -19,11 +25,21 @@
     */
    .header-right {
      width: 50%;
-     background-color: blueviolet;
      display: flex;
      justify-content: space-around;
+     align-items: center;
    }
 
-   /* .header-right button {
+   .header-right button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
 
-   } */
+  
+
+  
+
+  
