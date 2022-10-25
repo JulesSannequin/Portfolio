@@ -21,6 +21,11 @@
     
 }
 
+.creations-card-1:hover, .creations-card-2:hover,.creations-card-3:hover {
+    outline: solid 2px  #E0C3FC;
+    box-shadow: 0 0 8px #E0C3FC, 0 0 15px #E0C3FC, 0 0 30px #E0C3FC
+}
+
 .creations-card img {
     width: 100%;
     height: 75%;
@@ -41,3 +46,5 @@
     color: white;
     text-decoration: none;
 }
+
+
