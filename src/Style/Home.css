@@ -41,6 +41,33 @@
     object-fit: cover;
   }
 
+  @media (max-width: 1024px) {
+    
+    .main {
+      height: 82vh;
+    }
+
+    .main-left-top h1 {
+      font-size: 20px;
+    }
+
+    .main-left {
+      font-size: 15px;
+    }
+
+    .main-left span {
+      font-size: 18px;
+    }
+
+    .main-left-bottom {
+      line-height: 23px;
+    }
+
+    .main-left-top, .main-left-center, .main-left-bottom {
+      margin-top: 2.5rem;
+    }
+  }
+
 
 
  

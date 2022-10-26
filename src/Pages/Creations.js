@@ -28,7 +28,8 @@ const Creations = () => {
           <div className="creations-card-3">
             <img src={spaceinvader} alt="little-space-invader-game" />
             <div className="text">
-              Vous vous ennuyez ? venez a jouer a mon space invader
+              Vous vous ennuyez ? venez a jouer a mon space invader (uniquement
+              sur ordinateur)
             </div>
           </div>
         </a>

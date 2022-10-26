@@ -47,4 +47,19 @@
     text-decoration: none;
 }
 
+@media (max-width:1024px) {
+    .creations-card-1, .creations-card-2, .creations-card-3{
+        width: 18rem;
+        height: 15rem;
+    }
+
+    .creation-card img {
+        object-fit: cover;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+}
+
 
