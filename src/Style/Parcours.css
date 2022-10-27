@@ -47,3 +47,31 @@
     -webkit-text-fill-color: transparent;
 }
 
+@media (max-width: 1024px) {
+    .parcours-scroll, .parcours-scroll-bis {
+        font-size: 15px;
+     
+    }
+
+    .parcours-card-5, .parcours-card-6, .parcours-card-7 {
+        margin-bottom: 1rem;
+        height: 15rem;
+    }
+
+    .parcours-card-1, .parcours-card-2, .parcours-card-3, .parcours-card-4 {
+        margin-bottom: 1rem;
+    }
+
+    
+}
+
+@media (max-width: 820px) {
+    .parcours-card-1, .parcours-card-2, .parcours-card-3, .parcours-card-4 {
+        height: 25%;
+    }
+
+    .parcours-card-5, .parcours-card-6, .parcours-card-7 {
+        
+        height: 33.3%;
+    }
+}
