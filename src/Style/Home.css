@@ -84,6 +84,40 @@
     }
   }
 
+  @media (max-width:688px) {
+
+    .main {
+      height: 80vh;
+    }
+
+    .main-left {
+      font-size: 18px;
+    }
+
+    .main-left span {
+      font-size: 20px;
+    }
+    
+    .main-left-top, .main-left-center, .main-left-bottom {
+      margin-top: 4.8rem;
+    }
+  }
+
+  @media (max-width : 412px) {
+
+    .main-left {
+     font-size: 16px;
+    }
+
+    .main-left span {
+      font-size: 18px;
+    }
+
+    .main-left-top, .main-left-center, .main-left-bottom {
+      margin-top: 3.6rem;
+    }
+  }
+
 
 
  

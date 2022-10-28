@@ -87,6 +87,45 @@
 }
 
 
+@media (max-width:688px) {
+
+  .header {
+    height: 20vh;
+  }
+
+  .header-left h1 {
+    font-size: 22px;
+  }
+
+  .header-left {
+    font-size: 17px;
+  }
+  .header-right {
+    flex-direction: column;
+  }
+
+  .header-right button {
+    height: 1.8rem;
+  }
+  
+
+}
+
+@media (max-width: 412px) {
+  .header-left h1 {
+    font-size: 20px;
+  }
+
+  .header-left {
+    font-size: 16px;
+  }
+
+  .header-right button {
+   font-size: 12px;
+  }
+}
+
+
 
 
 

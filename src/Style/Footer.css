@@ -23,5 +23,17 @@
     }
 }
 
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 2.3rem;
+    }
+}
+
+@media (max-width : 412px) {
+    .footer {
+        text-align: center;
+    }
+}
+
 
 

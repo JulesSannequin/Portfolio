@@ -89,4 +89,17 @@
 
 }
 
+@media (max-width : 412px) {
+    .creations-card-1, .creations-card-2, .creations-card-3{
+        width: 22rem;
+        height: 20rem;
+        margin-top: 5rem;
+    }
+
+    .text {
+        font-size: 13px;
+       margin-top: -0.5rem;
+    }
+}
+
 

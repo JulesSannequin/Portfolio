@@ -75,3 +75,45 @@
         height: 33.3%;
     }
 }
+
+@media (max-width:768px) {
+    .parcours-card-1, .parcours-card-2, .parcours-card-3, .parcours-card-4 {
+        font-size: 14px;
+    }
+
+    .parcours-card-5, .parcours-card-6, .parcours-card-7 {
+        
+        font-size: 14px;
+    }
+}
+
+@media (max-width:688px) {
+    .parcours-card-1, .parcours-card-2, .parcours-card-3, .parcours-card-4 {
+        font-size: 12px;
+    }
+
+    .parcours-card-5, .parcours-card-6, .parcours-card-7 {
+        
+        font-size: 12px;
+    }
+}
+
+@media (max-width:412px) {
+    .parcours-card-1, .parcours-card-2, .parcours-card-3, .parcours-card-4 {
+        font-size: 10px;
+    }
+
+    .parcours-card-5, .parcours-card-6, .parcours-card-7 {
+        
+        font-size: 10px;
+    }
+
+    .parcours-scroll, .parcours-scroll-bis {
+        width: 40%;
+    }
+
+   .parcours-scroll {
+    margin-right: 2rem;
+   }
+   
+}
