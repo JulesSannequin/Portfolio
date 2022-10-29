@@ -5,7 +5,7 @@
     height: 3rem;
     display: flex;
     justify-content: center;
-    margin-top: 1.3rem;
+    margin-top: 2.2rem;
     font-size: 15px;
 }
 
@@ -29,9 +29,15 @@
     }
 }
 
-@media (max-width : 412px) {
+@media (max-width : 414px) {
     .footer {
         text-align: center;
+    }
+}
+
+@media (max-width : 375px) {
+    .footer {
+        font-size: 10px;
     }
 }
 

@@ -89,7 +89,7 @@
 
 }
 
-@media (max-width : 412px) {
+@media (max-width : 414px) {
     .creations-card-1, .creations-card-2, .creations-card-3{
         width: 22rem;
         height: 20rem;
@@ -99,6 +99,17 @@
     .text {
         font-size: 13px;
        margin-top: -0.5rem;
+    }
+}
+
+@media (max-width : 375px) {
+    .creations-card-1, .creations-card-2, .creations-card-3{
+        width: 20rem;
+        height: 18rem;
+    }
+
+    .text {
+        margin-top: -0.4rem;
     }
 }
 

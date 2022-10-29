@@ -68,7 +68,7 @@
 
 @media(max-width: 820px) {
   .header {
-    height: 8rem;
+   height: 12vh;
   }
 
   .header-left {
@@ -90,7 +90,7 @@
 @media (max-width:688px) {
 
   .header {
-    height: 20vh;
+    height: 15vh;
   }
 
   .header-left h1 {
@@ -111,7 +111,7 @@
 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 414px) {
   .header-left h1 {
     font-size: 20px;
   }
@@ -125,6 +125,21 @@
   }
 }
 
+@media (max-width:375px) {
+  .header-left h1 {
+    font-size: 18px;
+  }
+
+  .header-left {
+    font-size: 14px;
+  }
+
+  .header-right button {
+   font-size: 10px;
+   width: 4.5rem;
+   height: 1.5rem;
+  }
+}
 
 
 

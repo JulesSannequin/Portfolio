@@ -69,6 +69,11 @@
   }
 
   @media (max-width: 820px) {
+
+    .main {
+      height: 88vh;
+    }
+    
     .main-left {
       font-size: 20px;
     
@@ -103,7 +108,11 @@
     }
   }
 
-  @media (max-width : 412px) {
+  @media (max-width : 414px) {
+
+    .main {
+      height: 85vh;
+    }
 
     .main-left {
      font-size: 16px;
@@ -114,7 +123,25 @@
     }
 
     .main-left-top, .main-left-center, .main-left-bottom {
-      margin-top: 3.6rem;
+      margin-top: 4rem;
+    }
+  }
+
+  @media (max-width:375px) {
+    .main-left {
+      font-size: 13px;
+     }
+ 
+     .main-left span {
+       font-size: 16px;
+     }
+ 
+     .main-left-top, .main-left-center, .main-left-bottom {
+       margin-top: 2.2rem;
+     }
+
+     .main-left-top, .main-left-center, .main-left-bottom {
+      line-height: 25px;
     }
   }
 
