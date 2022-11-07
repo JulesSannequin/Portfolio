@@ -18,6 +18,10 @@
      
     }
 
+    .header-left a {
+      text-decoration: none;
+    }
+
    .header-right {
      width: 50%;
      display: flex;

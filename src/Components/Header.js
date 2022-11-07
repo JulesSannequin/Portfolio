@@ -5,13 +5,16 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-left">
-        <h1>Jules Sannequin</h1>
+        <Link to="/home">
+          {" "}
+          <h1>Jules Sannequin</h1>
+        </Link>
         Junior Fullstack web-Développeur
       </div>
 
       <div className="header-right">
         <Link to="/">
-          <button>home</button>
+          <button>Home</button>
         </Link>
         <Link to="/contact">
           <button>Contact</button>

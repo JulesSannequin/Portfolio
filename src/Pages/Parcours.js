@@ -21,16 +21,16 @@ const Parcours = () => {
         <div className="parcours-card-3">
           <p>
             J'ai par la suite monté mon entreprise : GS Covering avec mon
-            associé, nous avons donc géré cette société, nous vendions de
+            associé, nous avons donc géré cette société, nous vendions des
             préstations de covering et différents elements de préparation
             automobile et moto
           </p>
         </div>
         <div className="parcours-card-4">
           <p>
-            je suis par la suite rentré chez Volkswagen en tant que conseiller
+            Je suis par la suite rentré chez Volkswagen en tant que conseiller
             client après-vente, je m'occupais de la clientèle et des véhicules
-            en après-vente et je manageais les mécaniciens
+            en après-vente et je manageais l'équipe atelier/mécanique.
           </p>
         </div>
       </div>
@@ -49,10 +49,10 @@ const Parcours = () => {
         <div className="parcours-card-6">
           <p>
             J'ai commencé avec la formation Open Classrooms ou j'ai appris
-            l'intégration html et css. Mes premiers pas dans le code je me
+            l'intégration html et css. Mes premiers pas dans le code, je me
             sentais épanoui mais j'avais envi de plus , j'ai donc commencé a
             étudier le Javascript. En me renseigant j'ai trouvé ce qui allait
-            etre ma deuxieme experience: Le Reacteur
+            être ma deuxieme experience: Le Reacteur
           </p>
         </div>
         <div className="parcours-card-7">
